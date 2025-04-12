@@ -1,0 +1,16 @@
+path: mlp_3
+normalization: null
+lr: 0.2
+batch_size: 256
+num_epochs: 30
+optim_method: null
+momentum_param: 0.9
+reg: 0
+lr_decay: 0.95
+linearSize: [3072, 512, 256, 10]
+normalize: False
+activation: LeakyReLU
+eps: 0.01
+dropout_rate: 0.05
+Model: Input -> [Linear(3072->512)] -> [LeakyReLU(0.01)] -> [Dropout(0.05)] -> [Linear(512->256)] -> [LeakyReLU(0.01)] -> [Dropout(0.05)] -> [Linear(256->10)] -> Output
+best val:  52.320%
