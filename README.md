@@ -29,3 +29,7 @@ Run `python train.py` to start training with Numpy. The script automatically per
 ## Result
 If the code runs properly, you will get a set of result images containing the following:
 ![Training Results](result/mlp_3.png)
+
+## Vis
+Using the checkpoint saved after training. You can visualize the model parameters by running `python vis.py`
+![Vis](RAND_VIS_PARAM.png)
