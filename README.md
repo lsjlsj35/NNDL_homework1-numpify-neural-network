@@ -21,6 +21,7 @@ Label: 0-9
 - `data.py`: to load data from files; normalization policy; dataloader.
 - `model.py`: **NNClassifier** (namely the trainer); **MLP model and CNN model**; **SimpleBatchGD** (with optimizer)
 - `module.py`: all the modules that are necessary to form a model; loss functions
+- `vis.py`: visualize model parameters.
 - `train.py`: training script, the entrance for training. It first loads and normalizes data via `data.py`, then trains the MLP model by NNClassifier defined in `model.py`. Training config and model config can be set with variables named CONFIG and MODEL_CONFIG respectively.
 
 # Training
